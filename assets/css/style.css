@@ -1357,11 +1357,11 @@ section {
   }
 }
 
-#gallery-panel {
+#gallerypanel {
   visibility: hidden;
   max-height: 10px;
 }
-#gallery-panel.show {
+#gallerypanel.show {
   visibility: visible;
   max-height: 100%;
   transition: all ease-in-out 0.3s;

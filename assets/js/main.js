@@ -318,11 +318,11 @@
   //toggel show/hide gallery panel
   on('click', '#toggleGallery', function(e) {
     if (document.getElementById('toggleGallery').innerHTML === "Show Gallery") {
-      document.getElementById('gallery-panel').classList.toggle('show');
+      document.getElementById('gallerypanel').classList.toggle('show');
       document.getElementById('toggleGallery').innerHTML = "Hide Gallery";
     }
     else {
-      document.getElementById('gallery-panel').classList.toggle('show');
+      document.getElementById('gallerypanel').classList.toggle('show');
       document.getElementById('toggleGallery').innerHTML = "Show Gallery";
     }
   })
